@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10FAD891867A84DA3CDB635D /* Pods_MyAverageUSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF07C73193273A4E19B44C4 /* Pods_MyAverageUSA.framework */; };
+		A59C63F21F0C3CA700F96DAA /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59C63F11F0C3CA700F96DAA /* UITextFieldX.swift */; };
+		A59C63F41F0C410600F96DAA /* CoursePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59C63F31F0C410600F96DAA /* CoursePickerView.swift */; };
+		A59C63F61F0EB46D00F96DAA /* GPAWeightsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59C63F51F0EB46D00F96DAA /* GPAWeightsVC.swift */; };
+		A5A2D79A1F12190700528360 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5A2D7991F12190700528360 /* GoogleService-Info.plist */; };
+		A5A2D79C1F121FEC00528360 /* ChooseCoursesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2D79B1F121FEC00528360 /* ChooseCoursesVC.swift */; };
+		A5A2D79E1F121FFE00528360 /* CourseImprovmentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2D79D1F121FFE00528360 /* CourseImprovmentsVC.swift */; };
+		A5A2D7A01F12201F00528360 /* CourseCheckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2D79F1F12201F00528360 /* CourseCheckCell.swift */; };
+		A5A2D7A21F12203300528360 /* CourseImpromentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2D7A11F12203300528360 /* CourseImpromentsCell.swift */; };
+		A5A2D7A41F1225D500528360 /* Improvments.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2D7A31F1225D500528360 /* Improvments.swift */; };
+		A5D3FD911F0AD920005F6500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3FD901F0AD920005F6500 /* AppDelegate.swift */; };
+		A5D3FD931F0AD920005F6500 /* MainMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3FD921F0AD920005F6500 /* MainMenuVC.swift */; };
+		A5D3FD961F0AD920005F6500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D3FD941F0AD920005F6500 /* Main.storyboard */; };
+		A5D3FD991F0AD920005F6500 /* MyAverageUSA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5D3FD971F0AD920005F6500 /* MyAverageUSA.xcdatamodeld */; };
+		A5D3FD9B1F0AD920005F6500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D3FD9A1F0AD920005F6500 /* Assets.xcassets */; };
+		A5D3FD9E1F0AD920005F6500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D3FD9C1F0AD920005F6500 /* LaunchScreen.storyboard */; };
+		A5D3FDAB1F0AD9DA005F6500 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3FDAA1F0AD9DA005F6500 /* UIViewX.swift */; };
+		A5D3FDAD1F0AD9E7005F6500 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3FDAC1F0AD9E7005F6500 /* UIButtonX.swift */; };
+		A5D3FDAF1F0AD9F6005F6500 /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3FDAE1F0AD9F6005F6500 /* UILabelX.swift */; };
+		A5D3FDB11F0ADA11005F6500 /* SemesterPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3FDB01F0ADA11005F6500 /* SemesterPickerView.swift */; };
+		A5D3FDB31F0ADA1F005F6500 /* YearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3FDB21F0ADA1F005F6500 /* YearPickerView.swift */; };
+		A5D3FDB51F0ADAB0005F6500 /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3FDB41F0ADAB0005F6500 /* CourseCell.swift */; };
+		A5D3FDB71F0ADAC1005F6500 /* SemesterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3FDB61F0ADAC1005F6500 /* SemesterCell.swift */; };
+		A5D3FDB91F0ADB27005F6500 /* Semester.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3FDB81F0ADB27005F6500 /* Semester.swift */; };
+		A5D3FDBB1F0ADB30005F6500 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3FDBA1F0ADB30005F6500 /* Course.swift */; };
+		A5D3FDBD1F0ADB82005F6500 /* GlobalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3FDBC1F0ADB82005F6500 /* GlobalData.swift */; };
+		A5D3FDBF1F0ADF2E005F6500 /* GPAConverstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3FDBE1F0ADF2E005F6500 /* GPAConverstion.swift */; };
+		A5D3FDC11F0AE765005F6500 /* CourseListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3FDC01F0AE765005F6500 /* CourseListVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CF07C73193273A4E19B44C4 /* Pods_MyAverageUSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyAverageUSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD9C2509A1430D4D2C24341 /* Pods-MyAverageUSA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAverageUSA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyAverageUSA/Pods-MyAverageUSA.debug.xcconfig"; sourceTree = "<group>"; };
+		A59C63F11F0C3CA700F96DAA /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		A59C63F31F0C410600F96DAA /* CoursePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursePickerView.swift; sourceTree = "<group>"; };
+		A59C63F51F0EB46D00F96DAA /* GPAWeightsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPAWeightsVC.swift; sourceTree = "<group>"; };
+		A5A2D7991F12190700528360 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A5A2D79B1F121FEC00528360 /* ChooseCoursesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseCoursesVC.swift; sourceTree = "<group>"; };
+		A5A2D79D1F121FFE00528360 /* CourseImprovmentsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseImprovmentsVC.swift; sourceTree = "<group>"; };
+		A5A2D79F1F12201F00528360 /* CourseCheckCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCheckCell.swift; sourceTree = "<group>"; };
+		A5A2D7A11F12203300528360 /* CourseImpromentsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseImpromentsCell.swift; sourceTree = "<group>"; };
+		A5A2D7A31F1225D500528360 /* Improvments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Improvments.swift; sourceTree = "<group>"; };
+		A5D3FD8D1F0AD920005F6500 /* MyAverageUSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAverageUSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D3FD901F0AD920005F6500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5D3FD921F0AD920005F6500 /* MainMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuVC.swift; sourceTree = "<group>"; };
+		A5D3FD951F0AD920005F6500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5D3FD981F0AD920005F6500 /* MyAverageUSA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyAverageUSA.xcdatamodel; sourceTree = "<group>"; };
+		A5D3FD9A1F0AD920005F6500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5D3FD9D1F0AD920005F6500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5D3FD9F1F0AD920005F6500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D3FDAA1F0AD9DA005F6500 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		A5D3FDAC1F0AD9E7005F6500 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		A5D3FDAE1F0AD9F6005F6500 /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		A5D3FDB01F0ADA11005F6500 /* SemesterPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemesterPickerView.swift; sourceTree = "<group>"; };
+		A5D3FDB21F0ADA1F005F6500 /* YearPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YearPickerView.swift; sourceTree = "<group>"; };
+		A5D3FDB41F0ADAB0005F6500 /* CourseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
+		A5D3FDB61F0ADAC1005F6500 /* SemesterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemesterCell.swift; sourceTree = "<group>"; };
+		A5D3FDB81F0ADB27005F6500 /* Semester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Semester.swift; sourceTree = "<group>"; };
+		A5D3FDBA1F0ADB30005F6500 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		A5D3FDBC1F0ADB82005F6500 /* GlobalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalData.swift; sourceTree = "<group>"; };
+		A5D3FDBE1F0ADF2E005F6500 /* GPAConverstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPAConverstion.swift; sourceTree = "<group>"; };
+		A5D3FDC01F0AE765005F6500 /* CourseListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseListVC.swift; sourceTree = "<group>"; };
+		BA64B7BC0FFE309CE4437B61 /* Pods-MyAverageUSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAverageUSA.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyAverageUSA/Pods-MyAverageUSA.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5D3FD8A1F0AD920005F6500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FAD891867A84DA3CDB635D /* Pods_MyAverageUSA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E21ED789C80880E56C90644 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BD9C2509A1430D4D2C24341 /* Pods-MyAverageUSA.debug.xcconfig */,
+				BA64B7BC0FFE309CE4437B61 /* Pods-MyAverageUSA.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		519BC6A3FCE5F807B47063F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CF07C73193273A4E19B44C4 /* Pods_MyAverageUSA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5540E3E1F16C2DA008CA892 /* PickerViews */ = {
+			isa = PBXGroup;
+			children = (
+				A5D3FDB01F0ADA11005F6500 /* SemesterPickerView.swift */,
+				A59C63F31F0C410600F96DAA /* CoursePickerView.swift */,
+				A5D3FDB21F0ADA1F005F6500 /* YearPickerView.swift */,
+			);
+			name = PickerViews;
+			sourceTree = "<group>";
+		};
+		A5D3FD841F0AD920005F6500 = {
+			isa = PBXGroup;
+			children = (
+				A5D3FD8F1F0AD920005F6500 /* MyAverageUSA */,
+				A5D3FD8E1F0AD920005F6500 /* Products */,
+				0E21ED789C80880E56C90644 /* Pods */,
+				519BC6A3FCE5F807B47063F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5D3FD8E1F0AD920005F6500 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5D3FD8D1F0AD920005F6500 /* MyAverageUSA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5D3FD8F1F0AD920005F6500 /* MyAverageUSA */ = {
+			isa = PBXGroup;
+			children = (
+				A5D3FDA71F0AD94D005F6500 /* Controller */,
+				A5D3FDA51F0AD936005F6500 /* Model */,
+				A5D3FD901F0AD920005F6500 /* AppDelegate.swift */,
+				A5D3FDA61F0AD93B005F6500 /* View */,
+				A5D3FD941F0AD920005F6500 /* Main.storyboard */,
+				A5D3FD9A1F0AD920005F6500 /* Assets.xcassets */,
+				A5D3FD9C1F0AD920005F6500 /* LaunchScreen.storyboard */,
+				A5D3FD9F1F0AD920005F6500 /* Info.plist */,
+				A5A2D7991F12190700528360 /* GoogleService-Info.plist */,
+				A5D3FD971F0AD920005F6500 /* MyAverageUSA.xcdatamodeld */,
+			);
+			path = MyAverageUSA;
+			sourceTree = "<group>";
+		};
+		A5D3FDA51F0AD936005F6500 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5D3FDB81F0ADB27005F6500 /* Semester.swift */,
+				A5D3FDBA1F0ADB30005F6500 /* Course.swift */,
+				A5D3FDBC1F0ADB82005F6500 /* GlobalData.swift */,
+				A5D3FDBE1F0ADF2E005F6500 /* GPAConverstion.swift */,
+				A5A2D7A31F1225D500528360 /* Improvments.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A5D3FDA61F0AD93B005F6500 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5540E3E1F16C2DA008CA892 /* PickerViews */,
+				A5D3FDA91F0AD966005F6500 /* Cells */,
+				A5D3FDA81F0AD95D005F6500 /* ViewX */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A5D3FDA71F0AD94D005F6500 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5D3FD921F0AD920005F6500 /* MainMenuVC.swift */,
+				A5D3FDC01F0AE765005F6500 /* CourseListVC.swift */,
+				A59C63F51F0EB46D00F96DAA /* GPAWeightsVC.swift */,
+				A5A2D79B1F121FEC00528360 /* ChooseCoursesVC.swift */,
+				A5A2D79D1F121FFE00528360 /* CourseImprovmentsVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A5D3FDA81F0AD95D005F6500 /* ViewX */ = {
+			isa = PBXGroup;
+			children = (
+				A5D3FDAA1F0AD9DA005F6500 /* UIViewX.swift */,
+				A5D3FDAC1F0AD9E7005F6500 /* UIButtonX.swift */,
+				A5D3FDAE1F0AD9F6005F6500 /* UILabelX.swift */,
+				A59C63F11F0C3CA700F96DAA /* UITextFieldX.swift */,
+			);
+			name = ViewX;
+			sourceTree = "<group>";
+		};
+		A5D3FDA91F0AD966005F6500 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A5D3FDB41F0ADAB0005F6500 /* CourseCell.swift */,
+				A5D3FDB61F0ADAC1005F6500 /* SemesterCell.swift */,
+				A5A2D79F1F12201F00528360 /* CourseCheckCell.swift */,
+				A5A2D7A11F12203300528360 /* CourseImpromentsCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5D3FD8C1F0AD920005F6500 /* MyAverageUSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D3FDA21F0AD920005F6500 /* Build configuration list for PBXNativeTarget "MyAverageUSA" */;
+			buildPhases = (
+				7175F062EDF22B548CD00FE3 /* [CP] Check Pods Manifest.lock */,
+				A5D3FD891F0AD920005F6500 /* Sources */,
+				A5D3FD8A1F0AD920005F6500 /* Frameworks */,
+				A5D3FD8B1F0AD920005F6500 /* Resources */,
+				26AA84ACF3B5BC9CA188E6E4 /* [CP] Embed Pods Frameworks */,
+				F69766E32C5EBADF5CA152F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAverageUSA;
+			productName = MyAverageUSA;
+			productReference = A5D3FD8D1F0AD920005F6500 /* MyAverageUSA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5D3FD851F0AD920005F6500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jonathan Wesfield";
+				TargetAttributes = {
+					A5D3FD8C1F0AD920005F6500 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3QYMDPPNJ9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A5D3FD881F0AD920005F6500 /* Build configuration list for PBXProject "MyAverageUSA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5D3FD841F0AD920005F6500;
+			productRefGroup = A5D3FD8E1F0AD920005F6500 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5D3FD8C1F0AD920005F6500 /* MyAverageUSA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5D3FD8B1F0AD920005F6500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D3FD9E1F0AD920005F6500 /* LaunchScreen.storyboard in Resources */,
+				A5A2D79A1F12190700528360 /* GoogleService-Info.plist in Resources */,
+				A5D3FD9B1F0AD920005F6500 /* Assets.xcassets in Resources */,
+				A5D3FD961F0AD920005F6500 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26AA84ACF3B5BC9CA188E6E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyAverageUSA/Pods-MyAverageUSA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7175F062EDF22B548CD00FE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F69766E32C5EBADF5CA152F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyAverageUSA/Pods-MyAverageUSA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5D3FD891F0AD920005F6500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D3FDC11F0AE765005F6500 /* CourseListVC.swift in Sources */,
+				A5D3FDBB1F0ADB30005F6500 /* Course.swift in Sources */,
+				A5D3FD931F0AD920005F6500 /* MainMenuVC.swift in Sources */,
+				A5D3FDB91F0ADB27005F6500 /* Semester.swift in Sources */,
+				A5D3FDB71F0ADAC1005F6500 /* SemesterCell.swift in Sources */,
+				A59C63F61F0EB46D00F96DAA /* GPAWeightsVC.swift in Sources */,
+				A5A2D79E1F121FFE00528360 /* CourseImprovmentsVC.swift in Sources */,
+				A5D3FDB31F0ADA1F005F6500 /* YearPickerView.swift in Sources */,
+				A5D3FDAD1F0AD9E7005F6500 /* UIButtonX.swift in Sources */,
+				A5D3FDB51F0ADAB0005F6500 /* CourseCell.swift in Sources */,
+				A5D3FDAB1F0AD9DA005F6500 /* UIViewX.swift in Sources */,
+				A5D3FDBD1F0ADB82005F6500 /* GlobalData.swift in Sources */,
+				A5A2D7A21F12203300528360 /* CourseImpromentsCell.swift in Sources */,
+				A59C63F41F0C410600F96DAA /* CoursePickerView.swift in Sources */,
+				A5D3FDBF1F0ADF2E005F6500 /* GPAConverstion.swift in Sources */,
+				A5D3FDAF1F0AD9F6005F6500 /* UILabelX.swift in Sources */,
+				A59C63F21F0C3CA700F96DAA /* UITextFieldX.swift in Sources */,
+				A5A2D7A01F12201F00528360 /* CourseCheckCell.swift in Sources */,
+				A5D3FD991F0AD920005F6500 /* MyAverageUSA.xcdatamodeld in Sources */,
+				A5D3FD911F0AD920005F6500 /* AppDelegate.swift in Sources */,
+				A5A2D79C1F121FEC00528360 /* ChooseCoursesVC.swift in Sources */,
+				A5D3FDB11F0ADA11005F6500 /* SemesterPickerView.swift in Sources */,
+				A5A2D7A41F1225D500528360 /* Improvments.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5D3FD941F0AD920005F6500 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D3FD951F0AD920005F6500 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5D3FD9C1F0AD920005F6500 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D3FD9D1F0AD920005F6500 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5D3FDA01F0AD920005F6500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5D3FDA11F0AD920005F6500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5D3FDA31F0AD920005F6500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD9C2509A1430D4D2C24341 /* Pods-MyAverageUSA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				DEVELOPMENT_TEAM = 3QYMDPPNJ9;
+				INFOPLIST_FILE = MyAverageUSA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathanWesfield.MyAverageUSA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A5D3FDA41F0AD920005F6500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA64B7BC0FFE309CE4437B61 /* Pods-MyAverageUSA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				DEVELOPMENT_TEAM = 3QYMDPPNJ9;
+				INFOPLIST_FILE = MyAverageUSA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathanWesfield.MyAverageUSA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5D3FD881F0AD920005F6500 /* Build configuration list for PBXProject "MyAverageUSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D3FDA01F0AD920005F6500 /* Debug */,
+				A5D3FDA11F0AD920005F6500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D3FDA21F0AD920005F6500 /* Build configuration list for PBXNativeTarget "MyAverageUSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D3FDA31F0AD920005F6500 /* Debug */,
+				A5D3FDA41F0AD920005F6500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A5D3FD971F0AD920005F6500 /* MyAverageUSA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5D3FD981F0AD920005F6500 /* MyAverageUSA.xcdatamodel */,
+			);
+			currentVersion = A5D3FD981F0AD920005F6500 /* MyAverageUSA.xcdatamodel */;
+			path = MyAverageUSA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A5D3FD851F0AD920005F6500 /* Project object */;
+}
